@@ -1,0 +1,14 @@
+# pythonproject-06
+its text to speech project 
+import os
+
+print("Welcome to NIVAN")
+
+while True:
+    x = input("NIVAN: ")
+    
+    if x.lower() == "goodbye":
+        break
+    
+    command = f"say {x}"
+    os.system(command)
